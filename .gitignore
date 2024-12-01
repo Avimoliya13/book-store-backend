@@ -1,0 +1,50 @@
+# Node modules
+node_modules
+.terraform
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory
+/coverage/
+
+# Dependency directory for yarn (if using Yarn instead of npm)
+.yarn/
+
+# Build files (if you use a build tool like Webpack)
+dist/
+build/
+
+# Optional: Ignore any IDE specific files (e.g. for VS Code)
+.vscode/
+.idea/
+
+# Optional: Ignore npm and yarn lock files if you want to avoid using them
+package-lock.json
+yarn.lock
+
+# Ignore test outputs (if you use test runners like Mocha or Jest)
+test-output/
+
+# Ignore compiled JavaScript files if using TypeScript
+*.tsbuildinfo
+
+/.terraform
+
+# Ignore Docker files (optional)
+Dockerfile
+docker-compose.yml
